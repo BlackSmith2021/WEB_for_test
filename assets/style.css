@@ -83,16 +83,16 @@ ul li {
 }
 
 .menubar {
-	width: 900px;
+	width: 500px;
 	height: 46px;
 }
 
 ul.menu {
-	float: right;
+	float: left;
 }
 
 ul.menu li {
-	float: left;
+	float: right;
 	padding: 0 0 0 9px;
 	list-style: none;
 	margin:1px 2px 0 0;
@@ -113,4 +113,46 @@ ul.menu li.selected a {
 
 ul.menu li a:hover {
 	color: #e4ec04;
+}
+
+.site_content {
+	float: left;
+	width: 880px;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+	background-color: white;
+}
+
+.right_bar {
+	float: right;
+	width: 222px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border: solid #f2f2f2;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+
+.content {
+	text-align: left;
+	width: 620px;
+	padding: 0 0 0 5px;
+	float: left;
+}
+
+.info_autor {
+	margin-bottom: 5%;
+	background-color: #f9f9f9;
+	padding: 5%;
+	height: 270px;
+}
+
+.info_autor img {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-right: 2%;
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+	width: 25%;
 }
